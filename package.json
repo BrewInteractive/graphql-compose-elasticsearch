@@ -1,5 +1,5 @@
 {
-  "name": "graphql-compose-elasticsearch",
+  "name": "@brewww/graphql-compose-elasticsearch",
   "version": "0.0.0-semantically-released",
   "description": "Elastic search via GraphQL",
   "files": [
@@ -9,7 +9,7 @@
   "module": "mjs/index.mjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodkz/graphql-compose-elasticsearch.git"
+    "url": "https://github.com/BrewInteractive/graphql-compose-elasticsearch.git"
   },
   "keywords": [
     "graphql",
@@ -19,9 +19,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nodkz/graphql-compose-elasticsearch/issues"
+    "url": "https://github.com/BrewInteractive/graphql-compose-elasticsearch/issues"
   },
-  "homepage": "https://github.com/nodkz/graphql-compose-elasticsearch#readme",
+  "homepage": "https://github.com/BrewInteractive/graphql-compose-elasticsearch#readme",
   "dependencies": {
     "dox": "^0.9.0"
   },
