@@ -44,7 +44,7 @@ export function composeWithElastic<TContext>(
     );
   }
 
-  if (!opts.elasticType || typeof opts.elasticType !== 'string') {
+  if (opts.elasticType && typeof opts.elasticType !== 'string') {
     throw new Error(
       'Third arg for Resolver search() should contain `elasticType` string property from your Elastic server.'
     );
